@@ -25,11 +25,11 @@
 
 // 上記のコードをthisを用いて記述
 // this = クリックされた要素、ここではbox1のクラスを持つ4つのdivのうち、クリックされた要素のみスライドアップされる
-// $(function(){
-//   $('.box1').on('click', function(){
-//     $(this).slideUp();
-//   });
-// });
+$(function(){
+  $('.box1').on('click', function(){
+    $(this).slideUp();
+  });
+});
 
 
 // children
